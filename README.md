@@ -73,16 +73,3 @@ Date the domain WHOIS record was last updated. Not populated for some TLDs.
 ## Errors
 
 whois-parsed does not handle retry logic by design. It isn't uncommon to have whois lookups throw errors if your application gets blocked or rate limited due to too many whois calls. You should implement retry logic, rate limiting, proxies, etc. in your application as needed.
-
-## Tests
-
-  `npm test`
-  
-## Paid Version
-
-If you don't want to deal with proxies, rate limits, retries, etc. then you may be interested in a hosted domain
-availability API: https://rapidapi.com/moneals/api/domaination-io. This API gives you 10,000 free calls per month.
-
-## Contributing
-
-In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.

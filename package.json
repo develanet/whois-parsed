@@ -32,8 +32,8 @@
     "punycode": "^2.1.1"
   },
   "dependencies": {
-    "html-entities": "^1.2.1",
-    "moment": "^2.22.2",
-    "whois-raw": "^0.1.7"
+    "html-entities": "2.3.2",
+    "moment": "^2.29.1",
+    "whois-raw": "https://github.com/develanet/whois-raw.git"
   }
 }
